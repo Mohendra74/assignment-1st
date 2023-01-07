@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* header-section */
+
+.header {
+    height: 700px;
+    background: url(../images/banner/banner2.png);
+    background-size: cover;
+}
+
+.header-section-text {
+    text-align: right;
+    padding-top: 200px;
+    padding-left: 500px;
+    padding-right: 100px;
+}  
+
+.header-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 15px;
+}
+
+.header-discription {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    background-color: #F15B22;
+    border-radius: 5px;
+    border: none;
+    height: 45px;
+    width: 110px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 25px;
+}
