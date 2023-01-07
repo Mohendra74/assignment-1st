@@ -147,13 +147,28 @@
 }
 
 .footer {
-    padding: 100px;
+    padding: 100px 100px 100px 120px;
     color: #fff;
 }
 
+.footer-discription {
+    margin-top: 15px;
+    line-height: 20px;
+    color: rgb(247, 193, 193);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-discription-1 {
+    margin-top: 15px;
+    color: rgb(247, 193, 193);
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .footer-1 {
-    padding: 100px 140px;
-    color: #fff;
+    padding: 100px 130px;
+    color: #f8f8f8;
     font-size: 18px;
 }
 
@@ -164,5 +179,14 @@
     border: 1px solid rgb(226, 126, 126);
     border-radius: 3px;
     padding-left: 10px;
+    margin-top: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer img {
+    padding: 5px;
     margin-top: 20px;
 }
