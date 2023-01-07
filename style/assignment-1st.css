@@ -3,7 +3,7 @@
     font-family: 'Work Sans';
 }
 
-/* header-section */
+/* header-style */
 
 .header {
     height: 700px;
@@ -40,4 +40,129 @@
     color: #fff;
     font-size: 16px;
     margin-top: 25px;
+}
+
+/* about section style */
+
+.about-section {
+    display: flex;
+    padding: 130px 0px;
+}
+
+.about-text {
+    padding : 300px 60px 0px 70px ;
+}
+
+.about-title {
+    font-size: 40px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+}
+
+.about-discription {
+    color: #444343;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.about-section ul {
+    list-style:none;
+    color: #444343;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.about-section ul li {
+    line-height: 26px;
+}
+
+.about-section ul i {
+    color: #16D887;
+}
+
+/* myplan section style */
+
+.myplan-section {
+ text-align: center;
+
+}
+
+.plans-container {
+    display: flex;
+    gap: 20px;
+    padding: 0px 150px 50px;
+    justify-content: space-between;
+}
+
+.myplan-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.plan h3 {
+    color: #151414;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.plan h4 {
+    color: #737272;
+}
+
+/* overlay section styles */
+
+.overlay-section {
+   padding: 70px 160px;
+}
+
+.overlay {
+   padding: 30px 350px 0px 50px;
+   color: #fff;
+}
+
+.overlay-box {
+    height: 180px;
+    background: url(../images/watch.png);
+    background-size: cover;
+}
+
+.btn-primary1 {
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    height: 45px;
+    width: 110px;
+    color: #F15B22;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+/* footer section styles */
+
+.footer-section {
+    display: flex;
+    background-color: #151414;
+}
+
+.footer {
+    padding: 100px;
+    color: #fff;
+}
+
+.footer-1 {
+    padding: 100px 140px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-1 input {
+    height: 40px;
+    color: #fff;
+    background-color: #151414;
+    border: 1px solid rgb(226, 126, 126);
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-top: 20px;
 }
